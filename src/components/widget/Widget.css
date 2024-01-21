@@ -1,0 +1,97 @@
+.top{
+
+  display: flex;
+
+  align-items: center;
+}
+.widget {
+    background-color: inherit;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 20px;
+  
+
+    --border-size: 3px;
+    --border-angle: 0turn;
+    width: 35vmin;
+    height: auto;
+    background-image: conic-gradient(
+        from var(--border-angle),
+        #213,
+        #112 50%,
+        #213
+      ),
+      conic-gradient(from var(--border-angle), transparent 20%, #08f, #f03);
+    background-size: calc(100% - (var(--border-size) * 2))
+        calc(100% - (var(--border-size) * 2)),
+      cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  
+    animation: bg-spin 3s linear infinite;
+
+  
+  }
+  @keyframes bg-spin {
+    to {
+      --border-angle: 1turn;
+    }
+  }
+  
+  @property --border-angle {
+    syntax: "<angle>";
+    inherits: true;
+    initial-value: 0turn;
+  
+  }
+  
+  .widget-title {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .widget-info {
+    color: #777;
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+
+  .profile-picture{
+    border-radius: 50%;
+
+    width: 80px;
+    height: 80px;
+    
+
+  }
+
+  li{
+
+    font-size: 16px;
+   
+    padding: 5px;
+
+    list-style-type: none;
+
+    color: #08f;
+  }
+
+  ul{
+    padding: 0;
+  }
+  
+.image-container {
+  position: relative;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  overflow: hidden; /* Hide overflowing line */
+  display: flex; /* Center the container horizontally */
+  margin:auto
+}
+
+
+  
