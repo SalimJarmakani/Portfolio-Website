@@ -1,6 +1,6 @@
 # My Portfolio Website!
 
-shpw cases my journey as a Software Engineer!
+show cases my journey as a Software Engineer!
 
 # Getting Started with Create React App
 
