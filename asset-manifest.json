@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Portfolio-Website/static/css/main.8d29c917.css",
+    "main.js": "/Portfolio-Website/static/js/main.de512caa.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Portfolio-Website/static/js/787.1ed0c42c.chunk.js",
+    "static/media/bootstrap-icons.woff?": "/Portfolio-Website/static/media/bootstrap-icons.449ad8adf6ae0424b7ed.woff",
+    "static/media/abstract-textured-backgound.jpg": "/Portfolio-Website/static/media/abstract-textured-backgound.714d9d1370fdf3587825.jpg",
+    "static/media/bootstrap-icons.woff2?": "/Portfolio-Website/static/media/bootstrap-icons.dea24bf5a7646d8b84e7.woff2",
+    "static/media/Salim_profile.jpg": "/Portfolio-Website/static/media/Salim_profile.87049307ee9e4d295130.jpg",
+    "static/media/quiz up.png": "/Portfolio-Website/static/media/quiz up.8b689006337ca98b60b9.png",
+    "static/media/image-removebg-preview.png": "/Portfolio-Website/static/media/image-removebg-preview.8cf74bde2ec61c0f8564.png",
+    "static/media/laptop2-removebg-preview.png": "/Portfolio-Website/static/media/laptop2-removebg-preview.fed7252841b419c652a1.png",
+    "static/media/playstore.png": "/Portfolio-Website/static/media/playstore.f62ec6e56102ea25a59d.png",
+    "static/media/smartphone.png": "/Portfolio-Website/static/media/smartphone.af19941dff88f346a95e.png",
+    "static/media/cart.png": "/Portfolio-Website/static/media/cart.eca5ee08f37494f3f691.png",
+    "index.html": "/Portfolio-Website/index.html",
+    "main.8d29c917.css.map": "/Portfolio-Website/static/css/main.8d29c917.css.map",
+    "main.de512caa.js.map": "/Portfolio-Website/static/js/main.de512caa.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Portfolio-Website/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8d29c917.css",
+    "static/js/main.de512caa.js"
+  ]
+}
