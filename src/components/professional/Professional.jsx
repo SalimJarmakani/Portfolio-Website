@@ -1,8 +1,25 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import IdSLogo from "../../images/idssolutions_logo.jpg";
 import { Timeline } from "../timeline/Timeline";
+import HTimeline from "../timeline/HTimeline";
 
 export const Professional = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const mobileMediaQuery = window.matchMedia("(max-width: 767px)");
+
+    const handleMobileChange = (event) => {
+      setIsMobile(event.matches);
+    };
+
+    mobileMediaQuery.addEventListener("change", handleMobileChange);
+    setIsMobile(mobileMediaQuery.matches);
+
+    return () => {
+      mobileMediaQuery.removeEventListener("change", handleMobileChange);
+    };
+  }, []);
   return (
     <div className="shadow-lg p-3 mb-5 bg-white rounded w-75 ms-auto me-auto">
       <div className="row">
@@ -24,9 +41,7 @@ export const Professional = () => {
             Software Solutions at Integrated Digital Systems
           </p>
         </div>
-        <div className="row">
-          <Timeline />
-        </div>
+        <div className="row">{isMobile ? <HTimeline /> : <Timeline />}</div>
       </div>
     </div>
   );

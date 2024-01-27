@@ -9,7 +9,7 @@ export const Timeline = () => {
             class="timeline-steps aos-init aos-animate"
             data-bs-aos="fade-up"
           >
-            <div class="timeline-step">
+            <div class="timeline-step mb-5">
               <div
                 class="timeline-content"
                 data-bs-toggle="popover"
@@ -24,7 +24,7 @@ export const Timeline = () => {
                 <p class="h6 text-muted mb-0 mb-lg-0">Started Internship</p>
               </div>
             </div>
-            <div class="timeline-step">
+            <div class="timeline-step mb-5">
               <div
                 class="timeline-content"
                 data-bs-toggle="popover"

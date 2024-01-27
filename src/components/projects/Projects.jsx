@@ -14,6 +14,7 @@ const Projects = () => {
       description: "Playstore Clone made with Asp.net Core and React",
       imagePath: playIcon,
       github: "https://github.com/SalimJarmakani/PlayStore",
+      tech: ["C#", "ASP.NET CORE", "SQL"],
     },
     {
       id: 2,
@@ -21,6 +22,7 @@ const Projects = () => {
       description: "Instagram clone made with FASTAPI and Kotlin",
       imagePath: onlyGains,
       github: "https://github.com/SalimJarmakani/OnlyGains",
+      tech: ["Java", "Kotlin", "Python", "FastApi"],
     },
     {
       id: 3,
@@ -29,6 +31,7 @@ const Projects = () => {
         "Trivia multiplayer Quiz game made with Flutter and Firebase",
       imagePath: quizUp,
       github: "https://github.com/Ghaadi/quizup",
+      tech: ["Flutter", "Dart", "FireBase"],
     },
 
     {
@@ -37,6 +40,7 @@ const Projects = () => {
       description: "Ecommerce store made with React and Stripe",
       imagePath: Ecommerce,
       github: "https://github.com/SalimJarmakani/e-commerce",
+      tech: ["React", "Javascript", "commerce.js"],
     },
   ];
 
