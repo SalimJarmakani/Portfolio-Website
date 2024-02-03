@@ -1,14 +1,12 @@
 import React from "react";
 import { Chrono } from "react-chrono";
 import "./timeline.css";
-export default function HTimeline({ Events }) {
+export default function VTimeline({ Events }) {
   return (
     <div className="timeline-div">
       <Chrono
         items={Events}
-        enableBreakPoint
-        verticalBreakPoint={400}
-        mode="HORIZONTAL"
+        mode="VERTICAL"
         theme={{
           primary: "grey",
           secondary: "black",
