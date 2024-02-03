@@ -1,25 +1,25 @@
 import React, { useState, useEffect } from "react";
 import IdSLogo from "../../images/idssolutions_logo.jpg";
-import VTimeline from "../timeline/VTimeline";
 import HTimeline from "../timeline/HTimeline";
+import VTimeline from "../timeline/VTimeline";
 
 const Events = [
   {
-    title: "Started InternShip At Ids",
+    title: "June 2023",
     cardTitle: "Internship",
     cardDetailedText:
       "Began Internship As An Asp.net core Back-End Developer in Intergrated Digital Systems",
     url: "https://www.ids.com.lb/",
   },
   {
-    title: "Joined The Team As A Full-Stack Developer",
+    title: "August 2023",
     cardTitle: "Joined the Team",
     cardDetailedText:
-      "After A successfull Internship I was Offered A Job as Full-Stack Developer Using C# & Sql Server & Javascript Technologies",
+      "After a successful Internship I was Offered A Job as Full-Stack Developer specializing in C# & Sql Server & Javascript Technologies",
   },
   {
-    title: "Became the Lead Developer On Cloud 9",
-    cardTitle: "Joined the Team",
+    title: "December 2023",
+    cardTitle: "Cloud 9 Lead Developer",
     cardDetailedText:
       "Stepping into the role of Lead Developer for Cloud 9 Solution was a thrilling opportunity to lead the charge in crafting and maintaining this robust CRM platform. With a blend of JavaScript, C# (ASP.NET Core), and SQL Server wizardry, I brought our vision to life, ensuring seamless functionality and top-notch performance.",
     url: "https://cloud9.ids.com.lb/",
@@ -43,7 +43,12 @@ export const Professional = () => {
     };
   }, []);
   return (
-    <div className="shadow-lg p-3 mb-5 bg-white rounded w-75 ms-auto me-auto">
+    <div
+      id="professionalExpDiv"
+      className={`shadow-lg p-3 mb-5 bg-white rounded ${
+        isMobile ? "w-90" : "w-75"
+      }  ms-auto me-auto`}
+    >
       <div className="row">
         <h1 className="text-dark">Professional Experience</h1>
       </div>
@@ -64,7 +69,13 @@ export const Professional = () => {
           </p>
         </div>
       </div>
-      <HTimeline Events={Events} />
+      <div className="timeline-div">
+        {isMobile ? (
+          <VTimeline Events={Events} />
+        ) : (
+          <HTimeline Events={Events} />
+        )}
+      </div>
     </div>
   );
 };

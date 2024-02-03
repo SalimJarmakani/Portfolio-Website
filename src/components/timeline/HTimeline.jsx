@@ -3,11 +3,11 @@ import { Chrono } from "react-chrono";
 import "./timeline.css";
 export default function HTimeline({ Events }) {
   return (
-    <div className="timeline-div">
+    <div>
       <Chrono
         items={Events}
         enableBreakPoint
-        verticalBreakPoint={400}
+        verticalBreakPoint={900}
         mode="HORIZONTAL"
         theme={{
           primary: "grey",
