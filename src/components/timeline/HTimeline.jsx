@@ -3,7 +3,7 @@ import { Chrono } from "react-chrono";
 import "./timeline.css";
 export default function HTimeline({ Events }) {
   return (
-    <div>
+    <div style={{ textAlign: "center" }}>
       <Chrono
         items={Events}
         enableBreakPoint

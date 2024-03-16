@@ -1,4 +1,3 @@
-import React, { useEffect, useRef } from "react";
 import laptop from "../../images/laptop2-removebg-preview.png";
 import db from "../../images/image-removebg-preview.png";
 import phone from "../../images/smartphone.png";
@@ -25,11 +24,26 @@ function Skills() {
               <div className="card-body">
                 <h5 className="card-title text-white">Software developer</h5>
                 <p className="card-text text-white">
-                  Skilled software developer proficient in OOP, FP, and
-                  languages including Java, C#, Python, and JavaScript.
-                  Experienced in developing robust applications using diverse
-                  programming paradigms. Strong problem-solving abilities and a
-                  commitment to delivering high-quality software solutions.
+                  Experienced software developer proficient in OOP, FP, skilled
+                  in{" "}
+                  <span className="badge fs-6" style={{ color: "#f89917" }}>
+                    Java
+                  </span>
+                  ,{" "}
+                  <span className="badge fs-6" style={{ color: "#6746da" }}>
+                    C#
+                  </span>
+                  ,{" "}
+                  <span className="badge fs-6" style={{ color: "#3872a3" }}>
+                    Python
+                  </span>
+                  , and{" "}
+                  <span className="badge fs-6" style={{ color: "#cfbb1b" }}>
+                    JavaScript
+                  </span>
+                  . Utilizes design patterns to craft robust applications across
+                  diverse programming paradigms. Strong problem-solving skills
+                  with a commitment to high-quality software solutions.
                 </p>
               </div>
             </div>
@@ -46,11 +60,14 @@ function Skills() {
               <div className="card-body">
                 <h5 className="card-title text-white">BackEnd Engineer</h5>
                 <p className="card-text text-white">
-                  Proficient in ASP.NET Core, FastAPI, and Node.js for backend
-                  development. Strong expertise in building scalable web
-                  applications, RESTful APIs, and handling database operations.
-                  Skilled in problem-solving and delivering efficient backend
-                  solutions.
+                  Proficient in{" "}
+                  <span className="badge fs-6" style={{ color: "#6746da" }}>
+                    ASP.NET Core
+                  </span>
+                  , FastAPI, and Node.js for backend development. Strong
+                  expertise in building scalable web applications, RESTful APIs,
+                  and handling database operations. Skilled in problem-solving
+                  and delivering efficient backend solutions.
                 </p>
               </div>
             </div>

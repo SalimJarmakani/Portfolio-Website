@@ -21,7 +21,7 @@ const Events = [
     title: "December 2023",
     cardTitle: "Cloud 9 Lead Developer",
     cardDetailedText:
-      "Stepping into the role of Lead Developer for Cloud 9 Solution was a thrilling opportunity to lead the charge in crafting and maintaining this robust CRM platform. With a blend of JavaScript, C# (ASP.NET Core), and SQL Server wizardry, I brought our vision to life, ensuring seamless functionality and top-notch performance.",
+      "Assuming the Lead Developer position at Cloud 9 Solutions was an exciting opportunity to steer the development of our CRM platform, with a particular focus on ASP.NET Core. Working closely with the team, we crafted a robust solution, blending JavaScript, C#, and SQL Server intricacies for optimal performance and seamless functionality.",
     url: "https://cloud9.ids.com.lb/",
   },
 ];
@@ -46,7 +46,7 @@ export const Professional = () => {
     <div
       id="professionalExpDiv"
       className={`shadow-lg p-3 mb-5 bg-white rounded ${
-        isMobile ? "w-90" : "w-75"
+        isMobile ? "w-90" : "w-50"
       }  ms-auto me-auto`}
     >
       <div className="row">
@@ -63,9 +63,20 @@ export const Professional = () => {
         </div>
         <div className="col-md-6 mt-auto mb-auto">
           <p className="fs-5">
-            Experienced Full Stack Developer | Proficient in C# ASP.NET Core,
-            SQL Server, and JavaScript | Specializing in Crafting Complex
-            Software Solutions at Integrated Digital Systems
+            Experienced Full Stack Developer | Proficient in{" "}
+            <span className="badge fs-6" style={{ color: "#6746da" }}>
+              C# ASP.NET Core
+            </span>
+            ,{" "}
+            <span className="badge fs-6" style={{ color: "#148aca" }}>
+              SQL Server
+            </span>
+            , and{" "}
+            <span className="badge fs-6" style={{ color: "#cfbb1b" }}>
+              JavaScript
+            </span>{" "}
+            | Specializing in Crafting Complex Software Solutions at Integrated
+            Digital Systems
           </p>
         </div>
       </div>
