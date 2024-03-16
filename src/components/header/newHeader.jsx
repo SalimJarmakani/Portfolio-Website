@@ -39,8 +39,13 @@ function newHeader() {
               </a>
               <ul class="dropdown-menu">
                 <li>
+                  <a class="dropdown-item" href="#professionalExpDiv">
+                    Professinal Experience
+                  </a>
+                </li>
+                <li>
                   <a class="dropdown-item" href="#technical">
-                    Technical Experience
+                    Technical Skills
                   </a>
                 </li>
                 <li>

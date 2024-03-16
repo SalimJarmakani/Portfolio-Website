@@ -75,8 +75,10 @@ export const Professional = () => {
             <span className="badge fs-6" style={{ color: "#cfbb1b" }}>
               JavaScript
             </span>{" "}
-            | Specializing in Crafting Complex Software Solutions at Integrated
-            Digital Systems
+            | Specializing in Crafting Complex Software Solutions at{" "}
+            <span className="badge fs-5" style={{ color: "#4078b6" }}>
+              Integrated Digital Systems
+            </span>
           </p>
         </div>
       </div>
