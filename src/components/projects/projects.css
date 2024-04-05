@@ -1,3 +1,15 @@
 #projects {
   color: white !important;
 }
+
+.projectHover {
+  transition: all 0.5s;
+}
+.projectHover:hover {
+  border: 1px solid #d63384;
+  transform: scale(1.05);
+}
+
+.projectHover:active {
+  transform: scale(0.95) rotateZ(1.7deg);
+}

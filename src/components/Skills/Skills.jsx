@@ -41,9 +41,9 @@ function Skills() {
                   <span className="badge fs-6" style={{ color: "#cfbb1b" }}>
                     JavaScript
                   </span>
-                  . Utilizes design patterns to craft robust applications across
-                  diverse programming paradigms. Strong problem-solving skills
-                  with a commitment to high-quality software solutions.
+                  . Utilizing design patterns to craft robust applications
+                  across diverse programming paradigms. Strong problem-solving
+                  skills with a commitment to high-quality software solutions.
                 </p>
               </div>
             </div>

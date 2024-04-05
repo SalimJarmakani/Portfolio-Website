@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import IdSLogo from "../../images/idssolutions_logo.jpg";
 import HTimeline from "../timeline/HTimeline";
 import VTimeline from "../timeline/VTimeline";
-
+import IDSButton from "../Buttons/IDSButton";
 const Events = [
   {
     title: "June 2023",
@@ -77,7 +77,7 @@ export const Professional = () => {
             </span>{" "}
             | Specializing in Crafting Complex Software Solutions at{" "}
             <span className="badge fs-5" style={{ color: "#4078b6" }}>
-              Integrated Digital Systems
+              <IDSButton />
             </span>
           </p>
         </div>

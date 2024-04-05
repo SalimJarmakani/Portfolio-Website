@@ -5,7 +5,7 @@ export const Project = ({ projectData }) => {
 
   return (
     <div className="col-md-4 col-xl-4 col-sm-6 mb-5">
-      <div className="bg-white rounded shadow-sm py-5 px-4 ">
+      <div className="bg-white rounded shadow-sm py-5 px-4 projectHover">
         <img
           src={imagePath}
           alt=""
